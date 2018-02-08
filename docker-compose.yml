@@ -1,0 +1,7 @@
+crawler-tm:
+    image: crawler-tornado
+    container_name: crawler-lekabao
+    net: "host"
+    volumes:
+        - .:/data
+        #- ./brute_captcha.py:/data/server.py
